@@ -6,7 +6,13 @@
 package com.mmiglesias.practica.dao.impl;
 
 import com.mmiglesias.practica.dao.MascotaDao;
+import com.mmiglesias.practica.domain.Especie;
+import com.mmiglesias.practica.domain.Estado;
+import com.mmiglesias.practica.domain.Gato;
 import com.mmiglesias.practica.domain.Mascota;
+import com.mmiglesias.practica.domain.Perro;
+import com.mmiglesias.practica.domain.Propietario;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -15,21 +21,6 @@ import java.util.Map;
  * @author Maite
  */
 public class MascotaDaoImpl implements MascotaDao{
-
-    private static MascotaDaoImpl INSTANCE = new MascotaDaoImpl();
-    
-    //private Map<int, Mascota> mascotas; 
-    
-    private MascotaDaoImpl() {}
-    
-    public static MascotaDaoImpl getInstance() {
-        return INSTANCE;
-    }
-    private synchronized static void createInstance() {
-        if (INSTANCE == null) { 
-            INSTANCE = new MascotaDaoImpl();
-        }
-    }
     
     public Mascota getMascota(int codigo) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -39,4 +30,56 @@ public class MascotaDaoImpl implements MascotaDao{
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
+}
+
+class Singleton {
+    
+    private static Singleton INSTANCE = null;
+    
+    private Map<Integer, Mascota> mascotas; 
+
+    private Singleton(){
+    
+        Especie especie1 = new Gato();
+        Estado estado1 = Estado.INGRESADO;
+        Propietario propietario1 = new Propietario("Maite","Molinos Iglesias");
+        Mascota mascota1 = new Mascota(1, "perla1", especie1, estado1, new Date(), (short)2, propietario1);
+        
+        Especie especie2 = new Gato();
+        Estado estado2 = Estado.INGRESADO;
+        Propietario propietario2 = new Propietario("Maite1","Molinos1 Iglesias1");
+        
+        Mascota mascota2 = new Mascota(2, "perla2", especie2, estado2, new Date(), (short)2, propietario2);
+        
+        Especie especie3 = new Perro();
+        Estado estado3 = Estado.INGRESADO;
+        Propietario propietario3 = new Propietario("Maite2","Molinos3 Iglesias3");
+
+        Mascota mascota3 = new Mascota(3, "perla3", especie3, estado3, new Date(), (short)2, propietario3);
+
+        mascotas.put(mascota1.getCodigo(), mascota1);
+        mascotas.put(mascota2.getCodigo(), mascota2);
+        mascotas.put(mascota3.getCodigo(), mascota3);
+    }
+
+    private synchronized static void createInstance() {
+        if (INSTANCE == null) { 
+            INSTANCE = new Singleton();
+        }
+    }
+    
+    public static Singleton getInstance() {
+        if (INSTANCE == null) 
+            createInstance();
+        return INSTANCE;
+    }
+    
+    public void put(Integer clave, Mascota mascota){  
+        mascotas.put(clave, mascota);  
+    }  
+  
+    public Object get(Integer key)   
+    {  
+        return mascotas.get(key);  
+    }  
 }
