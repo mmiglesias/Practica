@@ -1,14 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mmiglesias.practica.domain;
 
 import java.util.Date;
 
 /**
- *
+ * Reporesenta una mascota.
+ * 
  * @author Maite
  */
 public class Mascota {
@@ -86,5 +82,4 @@ public class Mascota {
     public void setPropietario(Propietario propietario) {
         this.propietario = propietario;
     }
-   
 }
