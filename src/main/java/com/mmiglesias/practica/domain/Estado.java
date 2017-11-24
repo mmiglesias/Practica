@@ -9,7 +9,7 @@ public enum Estado {
     
     INGRESADO("INGRESADO"), ALTA("ALTA");
     
-    private String descripcion;
+    private final String descripcion;
     
     Estado(String descripcion){
         this.descripcion = descripcion;

@@ -1,11 +1,11 @@
 package com.mmiglesias.practica.domain;
 
 /**
- * Representa la especie perro.
+ * Representa la especie Perro.
  * 
  * @author Maite
  */
-public class Perro implements Especie{
+public class Perro implements Especie {
     
     public final static String DESCRIPCION = "Canis lupus familiaris";
     
