@@ -9,7 +9,7 @@
 	<center>
 		<h2>Hello World</h2>
 		<h2>
-			${message} ${name}
+			${mascota.nombre}
 		</h2>
 	</center>
 </body>

@@ -15,8 +15,6 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class ConsultaController {
 
-	String message = "Welcome to Spring MVC!";
-
 	@RequestMapping("/consulta")
 	public ModelAndView consulta(int codigo) {
             ModelAndView mv = new ModelAndView("consulta");
