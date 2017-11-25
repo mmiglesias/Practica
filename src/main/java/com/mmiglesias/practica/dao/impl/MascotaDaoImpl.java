@@ -12,7 +12,9 @@ import com.mmiglesias.practica.domain.Gato;
 import com.mmiglesias.practica.domain.Mascota;
 import com.mmiglesias.practica.domain.Perro;
 import com.mmiglesias.practica.domain.Propietario;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -27,7 +29,7 @@ public class MascotaDaoImpl implements MascotaDao{
     }
 
     public List<Mascota> getMascotas() {
-        return (List<Mascota>) Singleton.getInstance().getMascotas().values();
+        return new ArrayList(Singleton.getInstance().getMascotas().values());
     }   
 }
 
@@ -55,7 +57,9 @@ class Singleton {
         Propietario propietario3 = new Propietario("Maite2","Molinos3 Iglesias3");
 
         Mascota mascota3 = new Mascota(3, "perla3", especie3, estado3, new Date(), (short)2, propietario3);
-
+        
+        mascotas = new HashMap();
+        
         mascotas.put(mascota1.getCodigo(), mascota1);
         mascotas.put(mascota2.getCodigo(), mascota2);
         mascotas.put(mascota3.getCodigo(), mascota3);
