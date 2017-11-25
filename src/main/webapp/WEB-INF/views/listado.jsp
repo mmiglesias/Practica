@@ -17,7 +17,7 @@
             var dataSet = [
                 <c:if test="${not empty mascotas}">
                 <c:forEach var="mascota" items="${mascotas}">
-                    ['${mascota.codigo}', '${mascota.nombre}'],
+                    ['${mascota.codigo}', '${mascota.nombre}', '${mascota.propietario}','${mascota.estado}','<a href="consulta?codigo=${mascota.codigo}">Consulta</a>' ],
                 </c:forEach>
                 </c:if>
             ];
@@ -27,14 +27,15 @@
                     data: dataSet,
                     columns: [
                         { title: "Código" },
-                        { title: "Nombre"}
+                        { title: "Nombre"},
+                        { title: "Propietario"},
+                        { title: "Estado"},
+                        { title: "Acciones"}
                     ]
                 });
             });
         </script>
-        <h3>
-                <a href="consulta?codigo=1">Click Here</a>
-        </h3>
+       
     </center>
 </body>
 </html>
