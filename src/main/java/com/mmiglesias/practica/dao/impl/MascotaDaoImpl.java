@@ -23,13 +23,12 @@ import java.util.Map;
 public class MascotaDaoImpl implements MascotaDao{
     
     public Mascota getMascota(int codigo) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return Singleton.getInstance().getMascotas().get(codigo);
     }
 
     public List<Mascota> getMascotas() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
+        return (List<Mascota>) Singleton.getInstance().getMascotas().values();
+    }   
 }
 
 class Singleton {
@@ -52,7 +51,7 @@ class Singleton {
         Mascota mascota2 = new Mascota(2, "perla2", especie2, estado2, new Date(), (short)2, propietario2);
         
         Especie especie3 = new Perro();
-        Estado estado3 = Estado.INGRESADO;
+        Estado estado3 = Estado.ALTA;
         Propietario propietario3 = new Propietario("Maite2","Molinos3 Iglesias3");
 
         Mascota mascota3 = new Mascota(3, "perla3", especie3, estado3, new Date(), (short)2, propietario3);
@@ -73,13 +72,9 @@ class Singleton {
             createInstance();
         return INSTANCE;
     }
+
+    public Map<Integer, Mascota> getMascotas() {
+        return mascotas;
+    }
     
-    public void put(Integer clave, Mascota mascota){  
-        mascotas.put(clave, mascota);  
-    }  
-  
-    public Object get(Integer key)   
-    {  
-        return mascotas.get(key);  
-    }  
 }
