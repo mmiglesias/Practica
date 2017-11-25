@@ -1,5 +1,6 @@
 package com.mmiglesias.practica.domain;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -61,6 +62,15 @@ public class Mascota {
 
     public Date getFechaNacimiento() {
         return fechaNacimiento;
+    }
+    
+    public String getFechaNacimientoStr() {
+        if (fechaNacimiento == null) {
+            return null;
+        }
+        
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+        return formatter.format(fechaNacimiento);
     }
 
     public void setFechaNacimiento(Date fechaNacimiento) {
