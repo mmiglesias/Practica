@@ -10,14 +10,12 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class ConsultaController {
 
-	@RequestMapping("/consulta")
-	public ModelAndView consulta(int codigo) {
-            ModelAndView mv = new ModelAndView("consulta");
-
-            MascotaDao mascotaDao = new MascotaDaoImpl();                
-            Mascota mascota = mascotaDao.getMascota(codigo);
-            mv.addObject("mascota", mascota);
-            return mv;
-	}
-
+    @RequestMapping("/consulta")
+    public ModelAndView consulta(int codigo) {
+        ModelAndView modelAndView = new ModelAndView("consulta");
+        MascotaDao mascotaDao = new MascotaDaoImpl();
+        Mascota mascota = mascotaDao.getMascota(codigo);
+        modelAndView.addObject("mascota", mascota);
+        return modelAndView;
+    }
 }

@@ -31,6 +31,10 @@ public class Mascota {
     public int getCodigo() {
         return codigo;
     }
+    
+    public String getCodigoFormat() {
+        return String.format("%04d", codigo);
+    }
 
     public void setCodigo(int codigo) {
         this.codigo = codigo;

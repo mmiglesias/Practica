@@ -1,21 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mmiglesias.practica.dao;
 
 import com.mmiglesias.practica.domain.Mascota;
 import java.util.List;
 
 /**
- *
+ * Mascotas DAO
+ * 
  * @author Maite
  */
 public interface MascotaDao {
    
+    /**
+    * Obtiene una mascota dado un codigo.
+    *
+    * @param codigo el codigo
+    * @return la mascota
+    */
     public Mascota getMascota(int codigo);
     
+    /**
+    * Obtiene la lista de mascotas.
+    *
+    * @return la lista de mascotas
+    */
     public List<Mascota> getMascotas();
-    
 }
