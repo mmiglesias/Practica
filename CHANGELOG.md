@@ -1,4 +1,6 @@
 Changelog
+### [1.3.10](https://github.com/mmiglesias/Practica/compare/v1.3.9...v1.3.10) (2024-07-02)
+
 ## 1.2.0 (2024-06-27)
 
 * chore(release): 1.2.0 ([7b07628](https://github.com/mmiglesias/Practica/commit/7b07628))
