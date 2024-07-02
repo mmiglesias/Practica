@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.7](https://github.com/mmiglesias/Practica/compare/v1.3.6...v1.3.7) (2024-07-02)
+
 ### [1.3.6](https://github.com/mmiglesias/Practica/compare/v1.3.2...v1.3.6) (2024-07-02)
 
 ### [1.2.9](https://github.com/mmiglesias/Practica/compare/v1.3.2...v1.2.9) (2024-07-02)

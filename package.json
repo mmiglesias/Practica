@@ -1,6 +1,6 @@
 {
   "name": "practica",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "main": "commitlint.config.js",
   "dependencies": {
     "add-stream": "^1.0.0",
