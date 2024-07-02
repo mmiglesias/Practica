@@ -1,6 +1,11 @@
 ## [1.2.8](https://github.com/mmiglesias/Practica/compare/v1.3.1...v1.2.8) (2024-07-02)
 
 
+### Features
+
+* s ([1d1a047](https://github.com/mmiglesias/Practica/commit/1d1a04735ea84b756485f9cda2aec9a0e7e56233))
+
+
 
 ## [1.3.1](https://github.com/mmiglesias/Practica/compare/v1.3.0...v1.3.1) (2024-07-02)
 
