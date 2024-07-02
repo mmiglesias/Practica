@@ -1,4 +1,14 @@
-## [1.2.8](https://github.com/mmiglesias/Practica/compare/v1.3.1...v1.2.8) (2024-07-02)
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.2.9](https://github.com/mmiglesias/Practica/compare/v1.3.2...v1.2.9) (2024-07-02)
+
+## [1.2.8](https://github.com/mmiglesias/Practica/compare/v1.3.2...v1.2.8) (2024-07-02)
+
+
+
+## [1.3.2](https://github.com/mmiglesias/Practica/compare/v1.3.1...v1.3.2) (2024-07-02)
 
 
 ### Features
@@ -47,6 +57,3 @@
 ### Features
 
 * primer commit ([80f091a](https://github.com/mmiglesias/Practica/commit/80f091a8c083135b4a2a1bc888f262d480285991))
-
-
-
