@@ -5,18 +5,18 @@
     "customize": {
       "change_type_order": [
         "BREAKING CHANGE",
-        "feat",
-        "fix",
-		"improvement",
-		"perf",
-		"docs",
-        "test",
-		"build",
-        "ci",
-		"styles",
-		"chore"
-
+        "Features",
+        "Fixes",
+        "Styles",
+        "Performance",
+        "Improvements",
+        "Test",
+        "Build",
+        "Documentation",
+        "CI",
+		"Chore"
       ],
+   
       "info_path": "cz_customize_info.txt",
       "info": "This is customized info",
       "commit_parser": "^(?P<change_type>feat|fix|docs|test|ci|improvement|perf|build|styles|chore|BREAKING CHANGE)(?:\\((?P<scope>[^()\\r\\n]*)\\)|\\()?(?P<breaking>!)?:\\s(?P<message>.*)?",
@@ -26,11 +26,11 @@
         "docs": "Documentation",
         "test": "Test",
         "ci": "CI",
-		"build": "Build",
+        "build": "Build",
         "improvement": "Improvements",
         "perf": "Performance",
-		"styles": "Styles",
-		"styles": "Chore",
+        "styles": "Styles",
+        "chore": "Chore",
         "BREAKING CHANGE": "BREAKING CHANGE"
       }
     }
