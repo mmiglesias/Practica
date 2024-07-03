@@ -19,8 +19,8 @@
    
       "info_path": "cz_customize_info.txt",
       "info": "This is customized info",
-      "commit_parser": "^(?P<change_type>feat|fix|docs|test|ci|improvement|perf|build|styles|BREAKING CHANGE)(?:\\((?P<scope>[^()\\r\\n]*)\\)|\\()?(?P<breaking>!)?:\\s(?P<message>.*)?",
-      
+      "commit_parser": "^((?P<change_type>chore|build|ci|docs|feat|fix|perf|refactor|revert|style|test|BREAKING CHANGE)(?:\\((?P<scope>[^()\r\n]*)\\)|\\()?(?P<breaking>!)?|\\w+!):\\s(?P<message>.*?)(?:\\n\\n(?P<body>.*?)\\n\\n(?P<footer>.*))?$",
+
 	  "change_type_map": {
         "feat": "Features",
         "fix": "Fixes",
