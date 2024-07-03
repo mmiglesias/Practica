@@ -1,12 +1,28 @@
 ## Unreleased
 
+### Build
+
+- prueba build
+
 ### CI
 
 - prueba nueva
 
+### Documentation
+
+- prueba docs
+
 ### Features
 
 - prueba nueva
+
+### Fixes
+
+- prueba fix
+
+### Test
+
+- prueba test
 
 ## v1.3.14 (2024-07-02)
 
