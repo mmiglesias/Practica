@@ -1,87 +1,99 @@
-# Changelog
+## v1.3.14 (2024-07-02)
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### chore
 
-### [1.3.14](https://github.com/mmiglesias/Practica/compare/v1.3.13...v1.3.14) (2024-07-02)
+- **release**: 1.3.14
 
-## [1.3.13](https://github.com/mmiglesias/Practica/compare/v1.3.12...v1.3.13) (2024-07-02)
+## v1.3.13 (2024-07-02)
 
+### chore
 
+- **release**: 1.3.13
 
-## [1.3.12](https://github.com/mmiglesias/Practica/compare/v1.3.11...v1.3.12) (2024-07-02)
+## v1.3.12 (2024-07-02)
 
+### chore
 
+- **release**: 1.3.12
+- **release**: 1.3.11
+- **release**: 1.3.11
 
-## [1.3.11](https://github.com/mmiglesias/Practica/compare/v1.3.10...v1.3.11) (2024-07-02)
+## v1.3.11 (2024-07-02)
 
+### chore
 
+- **release**: 1.3.11
 
-## [1.3.10](https://github.com/mmiglesias/Practica/compare/v1.3.9...v1.3.10) (2024-07-02)
+## v1.3.10 (2024-07-02)
 
+### chore
 
+- **release**: 1.3.10
+- **release**: 1.3.9
 
-## [1.3.9](https://github.com/mmiglesias/Practica/compare/v1.3.8...v1.3.9) (2024-07-02)
+## v1.3.9 (2024-07-02)
 
+### chore
 
+- **release**: 1.3.9
 
-## [1.3.8](https://github.com/mmiglesias/Practica/compare/v1.3.7...v1.3.8) (2024-07-02)
+## v1.3.8 (2024-07-02)
 
+### chore
 
+- **release**: 1.3.8
 
-## [1.3.7](https://github.com/mmiglesias/Practica/compare/v1.3.6...v1.3.7) (2024-07-02)
+## v1.3.7 (2024-07-02)
 
+### chore
 
+- **release**: 1.3.7
 
-## [1.3.6](https://github.com/mmiglesias/Practica/compare/v1.3.2...v1.3.6) (2024-07-02)
+## v1.3.6 (2024-07-02)
 
+### chore
 
+- **release**: 1.3.6
+- **release**: 1.2.9
 
-## [1.3.2](https://github.com/mmiglesias/Practica/compare/v1.3.1...v1.3.2) (2024-07-02)
-
-
-### Features
-
-* s ([1d1a047](https://github.com/mmiglesias/Practica/commit/1d1a04735ea84b756485f9cda2aec9a0e7e56233))
-
-
-
-## [1.3.1](https://github.com/mmiglesias/Practica/compare/v1.3.0...v1.3.1) (2024-07-02)
-
-
-
-## [1.2.9](https://github.com/mmiglesias/Practica/compare/v1.2.8...v1.2.9) (2024-07-02)
-
-
-
-## [1.2.8](https://github.com/mmiglesias/Practica/compare/v1.0.2...v1.2.8) (2024-06-27)
-
-
-
-## [1.0.2](https://github.com/mmiglesias/Practica/compare/v1.0.1...v1.0.2) (2024-06-27)
-
-
-
-## [1.0.1](https://github.com/mmiglesias/Practica/compare/v1.2.0...v1.0.1) (2024-06-27)
-
-
-
-# [1.2.0](https://github.com/mmiglesias/Practica/compare/v1.1.0...v1.2.0) (2024-06-27)
-
-
-### Bug Fixes
-
-* primera correccion ([4925ac2](https://github.com/mmiglesias/Practica/commit/4925ac277dd43be91cb4fdfad89cfba0524a3ba8))
-
+## v1.3.2 (2024-07-02)
 
 ### Features
 
-* segundo commit ([5ebd26f](https://github.com/mmiglesias/Practica/commit/5ebd26fae44bc7974de429f973f8b4eafc4e8df5))
+- s
 
+## v1.3.1 (2024-07-02)
 
+## v1.2.9 (2024-07-02)
 
-# [1.1.0](https://github.com/mmiglesias/Practica/compare/80f091a8c083135b4a2a1bc888f262d480285991...v1.1.0) (2024-06-27)
+## v1.2.8 (2024-06-27)
 
+### chore
+
+- **release**: 1.2.8
+
+## v1.0.2 (2024-06-27)
+
+### chore
+
+- **release**: 1.0.2
+
+## v1.0.1 (2024-06-27)
+
+### chore
+
+- **release**: 1.0.1
+
+## v1.2.0 (2024-06-27)
+
+### chore
+
+- **release**: 1.2.0
 
 ### Features
 
-* primer commit ([80f091a](https://github.com/mmiglesias/Practica/commit/80f091a8c083135b4a2a1bc888f262d480285991))
+- segundo commit
+
+### Fixes
+
+- primera correccion
