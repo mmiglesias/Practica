@@ -1,0 +1,8 @@
+# .auto-changelog
+{
+  "tagPrefix": "v",
+  "infile": "CHANGELOG.md",
+  "commitLimit": 0,
+  "unreleased": true,
+  "changelogFilename": "CHANGELOG.md"
+}
