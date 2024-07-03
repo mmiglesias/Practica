@@ -6,6 +6,7 @@
 
 ### Fixes
 
+- prevent racing of requests
 - prueba fix
 
 ### Performance
