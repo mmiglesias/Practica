@@ -20,14 +20,14 @@
 
 - prueba test
 
-### Build
-
-- prueba build
-
 ### Documentation
 
 - prueba docs
 - prueba docs
+
+### Build
+
+- prueba build
 
 ### CI
 

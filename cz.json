@@ -1,8 +1,9 @@
 {
   "commitizen": {
-    "tag_format": "$minor.$major.$patch.RELEASE",
+    "tag_format": "$minor.$major.$patch-RELEASE",
     "name": "cz_customize",
     "customize": {
+
       "change_type_order": [
         "BREAKING CHANGE",
         "Features",
@@ -11,15 +12,14 @@
         "Performance",
         "Improvements",
         "Test",
+		"Documentation",
         "Build",
-        "Documentation",
-        "CI",
-		"Chore"
+        "CI"
       ],
    
       "info_path": "cz_customize_info.txt",
       "info": "This is customized info",
-      "commit_parser": "^(?P<change_type>feat|fix|docs|test|ci|improvement|perf|build|styles|chore|BREAKING CHANGE)(?:\\((?P<scope>[^()\\r\\n]*)\\)|\\()?(?P<breaking>!)?:\\s(?P<message>.*)?",
+      "commit_parser": "^(?P<change_type>feat|fix|docs|test|ci|improvement|perf|build|styles|BREAKING CHANGE)(?:\\((?P<scope>[^()\\r\\n]*)\\)|\\()?(?P<breaking>!)?:\\s(?P<message>.*)?",
       "change_type_map": {
         "feat": "Features",
         "fix": "Fixes",
@@ -30,7 +30,6 @@
         "improvement": "Improvements",
         "perf": "Performance",
         "styles": "Styles",
-        "chore": "Chore",
         "BREAKING CHANGE": "BREAKING CHANGE"
       }
     }
