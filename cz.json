@@ -1,8 +1,18 @@
 {
   "commitizen": {
+	  
+	
+	  "changelog": {
+		"template": "./EXPORT_TEMPLATE.tpl"
+	  },
+
+	  "version": "1.0.1",
     "tag_format": "$minor.$major.$patch-RELEASE",
     "name": "cz_customize",
+    "path": "./EXPORT_TEMPLATE.tpl",
+    "global": true,
     "customize": {
+		
 
       "change_type_order": [
         "BREAKING CHANGE",
@@ -19,8 +29,9 @@
    
       "info_path": "cz_customize_info.txt",
       "info": "This is customized info",
-      "commit_parser": "^(?P<change_type>feat|fix|docs|test|ci|improvement|perf|build|styles|BREAKING CHANGE)(?:\\((?P<scope>[^()\\r\\n]*)\\)|\\()?(?P<breaking>!)?:\\s(?P<message>.*)\\n\\n(?P<body>*",
-      "change_type_map": {
+      "commit_parser": "^(?P<change_type>feat|fix|docs|test|ci|improvement|perf|build|styles|BREAKING CHANGE)(?:\\((?P<scope>[^()\\r\\n]*)\\)|\\()?(?P<breaking>!)?:\\s(?P<message>.*)?",
+
+	  "change_type_map": {
         "feat": "Features",
         "fix": "Fixes",
         "docs": "Documentation",

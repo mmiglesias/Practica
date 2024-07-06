@@ -1,48 +1,43 @@
-# Changelog
+## Unreleased
 
-## Unreleased (2024-07-03)
+### Features
 
-#### New Features
+- pruebas varias
+- **test**: pruebas
+- **api**: aÃ±ade endpoint para usuarios
+- prueba nueva
+- s
+- segundo commit
+- primer commit
 
-* (test): pruebas
-* (api): añade endpoint para usuarios
-* prueba nueva
-* s
-* segundo commit
-* primer commit
-#### Fixes
+### Fixes
 
-* (alc): error
-* prevent racing of requests
-* prueba fix
-* primera correccion
-#### Performance improvements
+- **alc**: error
+- prevent racing of requests
+- prueba fix
+- primera correccion
 
-* prueba perf
-#### Docs
+### Performance
 
-* prueba docs
-* prueba docs
-#### Others
+- prueba perf
 
-* prueba build
-* prueba nueva
-* (release): 1.3.14
-* (release): 1.3.13
-* (release): 1.3.12
-* (release): 1.3.11
-* (release): 1.3.11
-* (release): 1.3.11
-* (release): 1.3.10
-* (release): 1.3.9
-* (release): 1.3.9
-* (release): 1.3.8
-* (release): 1.3.7
-* (release): 1.3.6
-* (release): 1.2.9
-* (release): 1.2.8
-* (release): 1.0.2
-* (release): 1.0.1
-* (release): 1.2.0
-* (release): 1.1.0
-* prueba test
+### Improvements
+
+- prueba improvement
+
+### Test
+
+- prueba test
+
+### Documentation
+
+- prueba docs
+- prueba docs
+
+### Build
+
+- prueba build
+
+### CI
+
+- prueba nueva
