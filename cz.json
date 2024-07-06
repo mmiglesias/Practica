@@ -6,8 +6,7 @@
 		"template": "./EXPORT_TEMPLATE.tpl"
 	  },
 
-	  "version": "1.0.1",
-    "tag_format": "$minor.$major.$patch-$release",
+    "tag_format": "$minor.$major.$patch",
     "name": "cz_customize",
     "path": "./EXPORT_TEMPLATE.tpl",
     "global": true,
