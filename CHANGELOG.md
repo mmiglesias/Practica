@@ -1,7 +1,8 @@
-## Unreleased
+## 1.0.1-RC (2024-07-06)
 
 ### Features
 
+- **pruebas**: nuevo
 - pruebas varias
 - **test**: pruebas
 - **api**: añade endpoint para usuarios
